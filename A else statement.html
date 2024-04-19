@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <h1 id ="heading">your age</h1>
+    <script>
+        let head = document.getElementById("heading")
+        let age = prompt("enter your age:")
+
+        if(age!=null && age>=18){
+        head.textContent = "you are eligible"
+        }
+        else{
+            head.textContent = "not eligible"
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Nested if statement
+
+        //if kulla oru if condition add panntrathu nested if statement
+        /*
+        if(cond){
+            if(cond){
+                --
+            }
+        }*/
+
+        let tamil=98, english=88,maths=90,social=89,science=78;
+        let total = tamil+english+maths+social+science;
+        let avg = total/5;
+        console.log("total", total);
+        console.log("avg", avg);
+
+        if(tamil>=35 && english>=35 && maths>=35&& social>=35&& science>=35){
+            console.log("result - pass")
+
+            if(avg>=90&&avg<=100){
+console.log("result - A - grade")
+            }
+            if(avg>=80&&avg<=90){
+console.log("result -B- grade")
+            }
+
+            if(avg>=70&&avg<=80){
+console.log("result -c- grade")
+            }
+        }
+    </script>
+</body>
+</html>

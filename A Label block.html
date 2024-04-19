@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let names = [
+            ["manoj", "naveen", "priya"],
+            ["lokesh", "vijay", "kuna"],
+            ["mathan", "hari", "maathavan"],
+        ]
+
+        for (let name of names) {
+            for (let member of name) {
+                if (member.startsWith("m")) {
+                    console.log(member)
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
